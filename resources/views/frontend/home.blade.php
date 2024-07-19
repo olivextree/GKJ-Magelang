@@ -236,7 +236,7 @@
             <div class="d-flex gap-4 flex-column justify-content-between align-items-center" style="width: 33.33%;">
                 <img class="object-fit-cover birthday-home-img" src="{{ asset('upload/user/' . $data->file) }}" />
                 <div class="text text-center w-100">
-                    <h2 class="name w-100 birthday-home-name">{{ $data->name.'asjlankas aljsak' }}</h2>
+                    <h2 class="name w-100 birthday-home-name">{{ $data->name.'' }}</h2>
                 </div>
             </div>
             @endforeach
